@@ -274,13 +274,17 @@ nav a{
 }
 
 .lofipromotion .text{
-    padding: 20px;
     text-align: center;
-    line-height: 28px;
-    font-size: 14px;
+}
+.lofipromotion .text h3{
+    padding: 20px 20px 10px 20px;
+    font-size: 13px;
 }
 .lofipromotion .text p{
-    font-size: 13px;
+    padding: 10px 20px 20px 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 23px;
 }
 .lofipromotion .btn-close{
     position: absolute;
@@ -375,6 +379,10 @@ nav a{
             position:absolute;
             left: 49%;
             height: 90%;
+        }
+        
+        .lofipromotion .text{
+            line-height: 25px;
         }
     }
     @media screen and (min-width:1200px) {
